@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.2'
 
+# Rails rspec
+gem 'rspec-rails', '~> 5.0.0'
 # Rubocop
 gem 'rubocop', '>= 1.0', '< 2.0'
 gem 'simple_form'
@@ -57,3 +59,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+
+gem 'devise'
