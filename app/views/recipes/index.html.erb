@@ -1,5 +1,4 @@
+<%= link_to "Create a recipe", new_recipe_path %>
 <% @recipes.each do |recipe| %>
-  <%= link_to recipe_path(recipe.id) do %>
-    <%= render partial: 'recipe', object: recipe %>
-  <% end %>
-<% end %>
+  <%= render partial: 'recipe', object: recipe %>
+<% end %> 
