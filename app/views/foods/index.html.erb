@@ -1,33 +1,30 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Foods</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Measurement units</th>
-      <th>Price</th>
-      <th>User</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @foods.each do |food| %>
+<h1>FOOD PAGE INDEX</h1>
+<div class = 'food-container'>
+  <button class = "add-food-btn btn">
+   <%= link_to "Add food", new_food_path, id: "add-food" %>
+  </button>
+  <div class = 'foods-container'>
+    <table>
       <tr>
-        <td><%= food.name %></td>
-        <td><%= food.measurement_units %></td>
-        <td><%= food.price %></td>
-        <td><%= food.user_id %></td>
-        <td><%= link_to 'Show', food %></td>
-        <td><%= link_to 'Edit', edit_food_path(food) %></td>
-        <td><%= link_to 'Destroy', food, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <th>Food</th>
+        <th>Measurment unit</th>
+        <th>Unit price</th>
+        <th>Action</th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Food', new_food_path %>
+      <% @foods.each do |food| %>
+        <tr class = 'food-list'>
+          <td> <%= food.name %> </td>
+          <td> <%= food.measurmnet_units %> </td>
+          <td> <%= food.price %> $</td>
+           <td>
+              <% if can? :destroy, food %>
+                <button class = 'delete-btn'>
+                  <%= link_to "Delete",food_path(food.id), method: :delete, data: { confirm: "Are you sure?" } %>
+                </button>
+          <% end %>
+          </td>
+        </tr>
+      <% end %>
+    </table>
+  </div>
+</div>
