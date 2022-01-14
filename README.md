@@ -43,7 +43,7 @@ $ bundle install
 ## Run
 
 ```
-$ rails db:seed
+$ rails db:create
 ```
 
 ```
@@ -64,22 +64,12 @@ $ ruby main.rb
 
 ## Authors
 
-👤 **Polina Stamenova**
-
-- GitHub: [@githubhandle](https://github.com/PolinaStamenova)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/polina-stamenova-a60766112/)
-
-👤 **Akasha Rojee**
-
-- GitHub: [@AkashaRojee](https://github.com/AkashaRojee)
-- Twitter: [@AkashaRojee](https://twitter.com/AkashaRojee)
-- LinkedIn: [Akasha Rojee](https://linkedin.com/in/AkashaRojee)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/PolinaStamenova/recipe-app/issues).
+Feel free to check the [issues page](https://github.com/codecaiine/recipe-app/issues).
 
 ## Show your support
 
