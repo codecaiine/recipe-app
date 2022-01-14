@@ -1,3 +1,19 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
 * {
   padding: 0;
   margin: 0;
@@ -7,33 +23,84 @@
 .flex-row {
   display: flex;
   flex-direction: row;
+}
 
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+ul {
+  list-style: none;
+}
 
-  ul {
-    list-style: none;
-  }
+a {
+  text-decoration: none;
+  color: black;
+}
 
-  a {
-    text-decoration: none;
-    color: black;
-  }
+.flash-msg {
+  margin-left: 0.5rem;
+}
 
-  .back-btn {
-    padding: 0.4rem;
-    min-width: 8rem;
-  }
+.back-btn {
+  padding: 0.4rem;
+  min-width: 8rem;
+}
 
-  .delete-btn {
-    padding: 0.2rem;
-  }
+.delete-btn {
+  padding: 0.2rem;
+}
 
-  .flex-col {
-    display: flex;
-    flex-direction: column;
-  }
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-top {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: antiquewhite;
+}
+
+.sign-nav {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+  padding: 0.5rem;
+}
+
+.sign-nav-ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.role {
+  min-width: 60px;
+  text-align: end;
+  font-size: 20px;
+  color: darkcyan;
+}
+
+.sign-nav-list {
+  font-size: 18px;
+}
+
+.nav-bottom {
+  background-color: pink;
+}
+
+.nav-ul {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 18px;
+  padding: 0.4rem;
+}
+
+.nav-list {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background-color: gainsboro;
+}
+
+.nav-active-link {
+  color: blue;
 }
