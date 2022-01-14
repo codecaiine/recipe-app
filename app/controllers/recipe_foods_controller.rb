@@ -6,6 +6,7 @@ class RecipeFoodsController < ApplicationController
 
   def edit
     @recipe = Recipe.find(params[:recipe_id])
+    @recipe_food = RecipeFood.find(params[:id])
   end
 
   def create
@@ -20,8 +21,10 @@ class RecipeFoodsController < ApplicationController
   end
 
   def update
-    flash[:notice] = 'Food was successfully updated!'
-    redirect_to @recipe
+    if @recipe_food.update(recipe_food_params)
+      flash[:notice] = 'Food was successfully updated!'
+      redirect_to root_path
+    end
   end
 
   def destroy

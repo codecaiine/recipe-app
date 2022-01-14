@@ -132,3 +132,15 @@ tr {
     margin-right: auto;
     text-align: center;
 }
+
+.recipe-ingredients {
+    display: flex;
+    gap: 1rem;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+    justify-content: flex-start;
+}
