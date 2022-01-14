@@ -1,6 +1,19 @@
-<h1>Editing Recipe Food</h1>
+<%= form_with model: [@recipe, @recipe.recipe_foods.build], class: "form" do |f| %>
 
-<%= render 'form', recipe_food: @recipe_food %>
-
-<%= link_to 'Show', @recipe_food %> |
-<%= link_to 'Back', recipe_foods_path %>
+    <div class="field">
+      <%= f.label :food, class: "label" %>
+       <div class="select-option">
+          <%= f.select :food_id, current_user.foods.collect {|food| [food.name, food.id] }, { include_blank: true} %>
+       </div>
+    </div>
+    <div class="field">
+      <%= f.label :quantity, class: "label" %>
+      <div class="quality">
+        <%= f.text_field :quantity, class: "input", required: true, min: 0 %>
+      </div>
+    </div>
+  
+    <div class="actions">
+      <%= f.submit  "Edit recipe food", class: "button is-success" %>
+    </div>
+<% end %> 
