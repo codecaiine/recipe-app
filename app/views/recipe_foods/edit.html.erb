@@ -1,6 +1,5 @@
-<%= form_with model: [@recipe, @recipe.recipe_foods.build], class: "form" do |f| %>
-
-    <div class="field">
+<%= form_with model: [@recipe, @recipe.recipe_foods.build], method: :patch, class: "form" do |f| %>
+<div class="field">
       <%= f.label :food, class: "label" %>
        <div class="select-option">
           <%= f.select :food_id, current_user.foods.collect {|food| [food.name, food.id] }, { include_blank: true} %>
