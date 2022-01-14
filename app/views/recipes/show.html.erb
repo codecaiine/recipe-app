@@ -1,7 +1,6 @@
 <div class="recipe-name flex-row">
   <%= @recipe.name %>
 </div>
-
 <div class="recipe-data flex-row">
   <div class="recipe-info flex-col">
     <p>Preparation time: <%= @recipe.preparation_time %></p>
@@ -14,9 +13,8 @@
 </div>
 
 <div class="recipe-actions flex-row">
-  <%= button_to "Add ingredient" %>
+  <%= link_to "Add ingredient", new_recipe_recipe_food_path(@recipe.id) %>
 </div>
 
 <div class="recipe-ingredients flex-row">
-
 </div>
