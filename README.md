@@ -1,6 +1,6 @@
 # Recipe-app:
 
-Classic recipe website
+This is recipe website
 
 ## Description:
 
@@ -16,55 +16,73 @@ The Recipe app keeps track of all your recipes, ingredients, and inventory. It w
 
 ![screenshot](./app/assets/images/ERD.JPG)
 
+## Built With
+- Ruby
+- Ruby on Rails
+- Rubocop
+
 ## Getting Started
+Follow these steps below :
 
-To get a local copy up and running follow these simple example steps.
 
-## Instructions
+### Setup
+ ```git clone https://github.com/codecaiine/recipe-app```
 
-```
-$ cd <folder>
-```
+ ```cd rails-blog```
 
-```
-$ git clone git@github.com:PolinaStamenova/recipe-app.git
-```
+### Prerequisites
 
-```
-$ cd recipe-app
-```
+    Ruby Rails PostgresSQL
 
-## Install
+Install gems with:
+    
+    bundle install
 
-```
-$ bundle install
-```
+Setup database with:
 
-## Run
+    rails db:create
+    rails db:migrate
 
-```
-$ rails db:create
-```
+Start server with:
 
-```
-$ rails db:migrate
-```
+    rails server
 
-## Test
+Open http://localhost:3000/ in your browser.
+Run tests
 
-```
-  rspec spec
-```
+Install npm with:
 
-### Usage
+    npm i
 
-```
-$ ruby main.rb
-```
+Install rspec with:
+
+    bundle install
+
+and
+
+    rails generate rspec:install
+
+run the test with:
+ 
+    rspec spec
+
+
+### Test
+
+- Run ```gem install rspec``` to install Rspec,
+
+- Run ```rspec spec``` to run all the test cases, and
+
+- Run ```rspec spec/name_of_test_file.rb``` to run test cases individually.
 
 ## Authors
 
+👤 **Yannick-Noel AKA**
 
+- Location: Côte d'Ivoire
+- GitHub: [@codecaiine](https://github.com/codecaiine)
+- Twitter: [@yannicknaka](https://twitter.com/yannicknaka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yannick-no%C3%ABl-aka/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
