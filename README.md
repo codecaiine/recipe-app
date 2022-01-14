@@ -71,17 +71,6 @@ password: 123456
 
 ## Authors
 
-👤 **Polina Stamenova**
-
-- GitHub: [@githubhandle](https://github.com/PolinaStamenova)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/polina-stamenova-a60766112/)
-
-👤 **Akasha Rojee**
-
-- GitHub: [@AkashaRojee](https://github.com/AkashaRojee)
-- Twitter: [@AkashaRojee](https://twitter.com/AkashaRojee)
-- LinkedIn: [Akasha Rojee](https://linkedin.com/in/AkashaRojee)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
