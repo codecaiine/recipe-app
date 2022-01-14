@@ -26,7 +26,7 @@ Follow these steps below :
 
 
 ### Setup
- ```git clone https://github.com/codecaiine/rails-blog```
+ ```git clone https://github.com/codecaiine/recipe-app```
 
  ```cd rails-blog```
 
