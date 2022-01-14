@@ -1,5 +1,21 @@
-<h1>New Recipe Food</h1>
+ <div class = add-food-form>
+ <%= form_with model: [@recipe, @recipe.recipe_foods.build], class: "form" do |f| %>
 
-<%= render 'form', recipe_food: @recipe_food %>
+  <div class="field">
+    <%= f.label :food, class: "label" %>
+     <div class="select-option">
+        <%= f.select :food_id, current_user.foods.collect {|food| [food.name, food.id] }, { include_blank: true} %>
+     </div>
+  </div>
+  <div class="field">
+    <%= f.label :quantity, class: "label" %>
+    <div class="quality">
+      <%= f.text_field :quantity, class: "input", required: true, min: 0 %>
+    </div>
+  </div>
 
-<%= link_to 'Back', recipe_foods_path %>
+  <div class="actions">
+    <%= f.submit class: "button is-success" %>
+  </div>
+<% end %>
+</div>

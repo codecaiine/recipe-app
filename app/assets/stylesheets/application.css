@@ -20,6 +20,10 @@
   box-sizing: border-box;
 }
 
+.profiler-result {
+  display: none;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -29,13 +33,12 @@ ul {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
 .flash-msg {
   margin-left: 0.5rem;
+}
+
+.btn {
+  padding: 0.4rem;
 }
 
 .back-btn {
@@ -53,30 +56,31 @@ a {
 }
 
 .nav-top {
-  margin-top: 1rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  background-color: antiquewhite;
+  background-color: lightgray;
 }
 
 .sign-nav {
   display: flex;
   gap: 0.5rem;
   align-items: baseline;
-  padding: 0.5rem;
 }
 
 .sign-nav-ul {
   display: flex;
   gap: 1rem;
+  color: black;
+  opacity: 0.5;
 }
 
 .role {
   min-width: 60px;
   text-align: end;
   font-size: 20px;
-  color: darkcyan;
+  color: black;
 }
 
 .sign-nav-list {
@@ -84,7 +88,7 @@ a {
 }
 
 .nav-bottom {
-  background-color: pink;
+  background-color: antiquewhite;
 }
 
 .nav-ul {
@@ -102,5 +106,29 @@ a {
 }
 
 .nav-active-link {
-  color: blue;
+  color: black;
+  opacity: 0.5;
+}
+
+.remove-recipe-btn {
+  padding: 0.2rem 0.5rem;
+}
+
+.recipe-ingredients {
+  display: flex;
+  gap: 1rem;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+
+.sign-forms {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
