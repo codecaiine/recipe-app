@@ -15,120 +15,120 @@
  */
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .profiler-result {
-  display: none;
+    display: none;
 }
 
 .flex-row {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 .flash-msg {
-  margin-left: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .btn {
-  padding: 0.4rem;
+    padding: 0.4rem;
 }
 
 .back-btn {
-  padding: 0.4rem;
-  min-width: 8rem;
+    padding: 0.4rem;
+    min-width: 8rem;
 }
 
 .delete-btn {
-  padding: 0.2rem;
+    padding: 0.2rem;
 }
 
 .flex-col {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-top {
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #c1c1c1;
 }
 
 .sign-nav {
-  display: flex;
-  gap: 0.5rem;
-  align-items: baseline;
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
 }
 
 .sign-nav-ul {
-  display: flex;
-  gap: 1rem;
-  color: black;
-  opacity: 0.5;
+    display: flex;
+    gap: 1rem;
+    color: black;
+    opacity: 0.5;
 }
 
 .role {
-  min-width: 60px;
-  text-align: end;
-  font-size: 20px;
-  color: black;
+    min-width: 60px;
+    text-align: end;
+    font-size: 20px;
+    color: black;
 }
 
 .sign-nav-list {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .nav-bottom {
-  background-color: antiquewhite;
+    background-color: white;
 }
 
 .nav-ul {
-  display: flex;
-  gap: 0.5rem;
-  font-size: 18px;
-  padding: 0.4rem;
+    display: flex;
+    gap: 0.5rem;
+    font-size: 18px;
+    padding: 0.4rem;
 }
 
 .nav-list {
-  border: 1px solid gray;
-  border-radius: 0.5rem;
-  padding: 0.2rem 0.5rem;
-  background-color: gainsboro;
+    border: 2px solid #666;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    background-color: white;
 }
 
 .nav-active-link {
-  color: black;
-  opacity: 0.5;
+    color: black;
+    opacity: 0.5;
 }
 
 .remove-recipe-btn {
-  padding: 0.2rem 0.5rem;
+    padding: 0.2rem 0.5rem;
 }
 
 .recipe-ingredients {
-  display: flex;
-  gap: 1rem;
+    display: flex;
+    gap: 1rem;
 }
 
 tr {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 0.5rem;
-  justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+    justify-content: flex-start;
 }
 
 .sign-forms {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
