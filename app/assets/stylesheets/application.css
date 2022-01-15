@@ -89,7 +89,6 @@ li {
   padding: 7px;
 }
 
-
 /* stylelint-disable-next-line selector-id-pattern */
 
 select#recipe_food_food_id {
@@ -106,7 +105,6 @@ select#recipe_food_food_id {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-
 
 /* stylelint-disable-next-line selector-id-pattern */
 
