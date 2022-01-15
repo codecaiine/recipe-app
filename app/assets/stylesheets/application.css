@@ -15,171 +15,172 @@
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@300;400&display=swap');
+
 body {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .nav-bg {
-    background-color: #2b2929;
+  background-color: #2b2929;
 }
 
 .add-btn {
-    float: right;
-    width: 110px;
-    font-weight: 600;
-    margin-bottom: 20px;
+  float: right;
+  width: 110px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .food-btn {
-    font-weight: 600;
-    margin: 10px 0;
-    width: 100%;
-    color: white;
+  font-weight: 600;
+  margin: 10px 0;
+  width: 100%;
+  color: white;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .food-form {
-    width: 50%;
+  width: 50%;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .r-name {
-    width: 30%;
+  width: 30%;
 }
 
 .d-btn {
-    padding: 1px 25px;
-    font-weight: 600;
-    margin-top: 30px;
+  padding: 1px 25px;
+  font-weight: 600;
+  margin-top: 30px;
 }
 
 .public-btn {
-    font-size: 20px;
-    font-weight: 600;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .recipe-form {
-    width: 50%;
-    margin: auto;
+  width: 50%;
+  margin: auto;
 }
 
 .log-btn {
-    margin: auto;
-    width: fit-content;
+  margin: auto;
+  width: fit-content;
 }
 
 .log-input {
-    width: 140px;
+  width: 140px;
 }
 
 .r-btn {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .f-select {
-    width: 100%;
-    padding: 7px;
+  width: 100%;
+  padding: 7px;
 }
 
 
 /* stylelint-disable-next-line selector-id-pattern */
 
 select#recipe_food_food_id {
-    width: 100%;
-    padding: 5px;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    appearance: none;
-    border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 
 /* stylelint-disable-next-line selector-id-pattern */
 
 select#recipe_food_food_id:focus {
-    color: #212529;
-    background-color: #fff;
-    border-color: #86b7fe;
-    outline: 0;
-    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
 }
 
 .rf-btn {
-    margin: auto;
-    width: fit-content;
+  margin: auto;
+  width: fit-content;
 }
 
 .btn {
-    letter-spacing: 1px;
-    text-decoration: none;
+  letter-spacing: 1px;
+  text-decoration: none;
 }
 
 .cr-btn {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .recipe {
-    width: 70%;
+  width: 70%;
 }
 
 .menu {
-    color: white;
+  color: white;
 }
 
 .btn-nav {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 .btn-nav a {
-    color: white;
+  color: white;
 }
 
 .sign-btn {
-    font-size: 13px;
-    padding: 3px 10px;
-    margin-right: 20px;
+  font-size: 13px;
+  padding: 3px 10px;
+  margin-right: 20px;
 }
 
 .nav-menu {
-    height: 50px;
+  height: 50px;
 }
 
 .food {
-    width: 50%;
-    margin: auto;
+  width: 50%;
+  margin: auto;
 }
 
 .delete-btn {
-    padding: 0;
+  padding: 0;
 }
 
 .actions-btn {
-    padding: 0;
-    margin-left: 5px;
+  padding: 0;
+  margin-left: 5px;
 }
 
 .bg-h {
-    background-color: #ccc;
-    color: #212529;
+  background-color: #ccc;
+  color: #212529;
 }
 
 .tr-food:nth-child(even) {
-    background-color: #fff;
+  background-color: #fff;
 }
 
-.tr-food:nth-child(even) {
-    background-color: #eeeeee;
+.tr-food:nth-child(odd) {
+  background-color: #eee;
 }
