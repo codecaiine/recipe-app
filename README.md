@@ -12,10 +12,6 @@ The Recipe app keeps track of all your recipes, ingredients, and inventory. It w
 - Ruby on Rails
 - PostgreSQL
 
-## Entity Relationship Diagram
-
-![screenshot](./app/assets/images/ERD.JPG)
-
 ## Built With
 - Ruby
 - Ruby on Rails
